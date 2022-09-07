@@ -1,0 +1,104 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: => core.ref.color
+      delete_tag_button: خەتكۈچنى ئۆچۈرۈش
+      delete_tag_confirmation: "خەتكۈچىنى راستىنلا ئۈچۈرەمسىز ؟ يازمىلار ئۆچمەيدۇ . "
+      description_label: چۈشەندۈرۈش
+      hide_label: ھەممە يازمىدىن يۇشۇرۇش
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: لاتىنچە ئىسمى
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: مۇنبەرنىڭ سەھىپە ۋە خەتكۈچ تىزملىكىنى باشقۇرۇش
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: خەتكۈچ تەھرىرلەشكە يول قويۇش
+      restrict_by_tag_heading: خەتكۈچ ئارقىلىق چەكلمە قېتىش
+      tag_discussions_label: خەتكۈچ ئۆزگەرتىش
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " غىچە "
+      required_primary_heading: سەھىپىنىڭ ساننى يېزىڭ
+      required_primary_text: بىر يازمىغا ئاڭ ئاز بولغاندا نەچچە سەھىپە قاتىدۇ ؟ ئەڭ كۆپ بولغاندىچۇ ؟
+      required_secondary_heading: خەتكۈچنى ساننى يېزىڭ
+      required_secondary_text: بىر يازمىغا كۆپ بولغاندا نەچچە خەتكۈچ قاتىدۇ؟ ئاز بولغاندىچۇ ؟
+      title: خەتكۈچ تەڭشىكى
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "خەتكۈچ بولسا مۇنبەرنى سەھىپىگە ئايرىش شۇنداقلا خەتكۈچ ئارقىلىق ئ‍ايرىشقا ئىشلىتىلدۇ . بىرىنچى دەرىجە سەھىپە ئىككىنجى دەرىجە خەتكۈچ"
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: سەھىپە
+      secondary_heading: خەتكۈچ
+      settings_button: تەڭشەك
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "سەھىپە تاللاڭ|{count} سەھىپە تاللاڭ"
+      choose_secondary_placeholder: "خەتكۈچ تاللاڭ|ئاز بولغاندا {count} خەتكۈچ تاللاڭ"
+      edit_title: "{title} خەتكۈچىنى تەھرىرلەش"
+      submit_button: => core.ref.okay
+      title: يازمىغا سەھىپە ۋە خەتكۈچ تاللاڭ
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: خەتكۈچ تاللاش
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: خەتكۈچنى قايتا بىكىتىش
+
+    header:
+      back_to_tags_tooltip: خەتكۈچ تىزىملىكىگە قايتىش
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: ... قاتارلىقلار
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: خەتكۈچ چىقىرىۋېتىلگەن
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_and_removed_tags_text: "{username} {tagsAdded} نى قاتتى ھەمدە {tagsRemoved} نى چىقرىۋەتتى."
+      added_tags_text: "{username} {tagsAdded} نى قاتتى."
+      removed_tags_text: "{username} {tagsRemoved} نى چىقىرىۋەتتى."
+      tags_text: "{tags} خەتكۈچ |{tags} خەتكۈچ"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: ئۆچۈرۈلگەن
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: خەتكۈچ قۇرۇش
+    name: ئىسىم
+    tags: خەتكۈچ

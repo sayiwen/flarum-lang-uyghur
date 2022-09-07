@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: پاش قىلىش
+      view_flags_label: پاش قىلىنغان يازمىلانى كۆرۈش
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: مۇنبەر قائىدىسى ئادرىسى
+      title: پاش قىلىش تەڭشىكى
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: پاش قىلغىنىڭىزغا رەھمەت. بىزنڭ يۈرگۈزگىچىلەر تىز سۈرئەتتە بىر تەرەپ قىلىدۇ.
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: خاتا پاش قىلىنغان
+      reason_inappropriate_text: "بۇ مەزمۇن مۇنبەرگە قائىدىسىگە ماس كەلمەيدىكەن . <a>مۇنبەر قائىدىسى</a>"
+      reason_off_topic_label: "يازمىنى ئېتىش"
+      reason_off_topic_text: بۇ ئىنكاس بۇ يازمىىغا چۈشمەيدىكەن . چىقرىۋېتىلدى . 
+      reason_other_label: باشقىلار
+      reason_spam_label: ئەخلەت
+      reason_spam_text: بۇ ئىلانكەن
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: پاش قىلىنغان يازما يوق
+      item_text: "<em>{discussion}</em> دا {username}"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: تاقاش
+      flagged_by_text: "{username} تەرىپىدىن پاش قىلىندى"
+      flagged_by_with_reason_text: "{username} پاش قىلدى . سەۋەبى: {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: پاش قىلىش
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: پاش قىلىش
+    flagged_posts: پاش قىلىنغان مەزمۇنلار

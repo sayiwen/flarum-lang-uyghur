@@ -1,0 +1,50 @@
+{
+	"name": "sayiwen/flarum-lang-uyghur",
+	"type": "flarum-extension",
+	"description": "Uyghur language pack for Flarum.",
+	"homepage": "https://github.com/sayiwen/flarum-lang-uyghur",
+	"keywords": [
+		"locale",
+		"flarum",
+		"uyghur-locale"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Abdugheni Ablez",
+			"email": "gheniablez@gmail.com",
+			"homepage": "https://elgek.subat.cn/"
+		}
+	],
+	"autoload": {
+	    "psr-4": {
+	      "Sayiwen\\FlarumLangUyghur\\": "src/"
+	    }
+	  },
+	"support": {
+		"issues": "https://github.com/sayiwen/flarum-lang-uyghur/issues",
+		"source": "https://github.com/sayiwen/flarum-lang-uyghur"
+	},
+	"require": {
+		"flarum/core": "^1.3"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"flarum-extension": {
+			"title": "Uyghur",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "ug",
+			"title": "Uyghur"
+		},
+		"extiverse": {
+			"discuss": ""
+		}
+	}
+}

@@ -1,0 +1,20 @@
+flarum-statistics:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Statistics dashboard widget.
+    statistics:
+      active_users_text: "ئاكتىپ ئەزا : {count}"
+      discussions_heading: => core.ref.discussions
+      last_12_months_label: يېقىنقى بىر يىل
+      last_28_days_label: يېقىنقى 28 كۈن
+      last_7_days_label: ئالدىنقى بىر ھەپتە
+      posts_heading: => core.ref.posts
+      today_label: بۈگۈن
+      total_label: جەمئىي
+      users_heading: => core.ref.users

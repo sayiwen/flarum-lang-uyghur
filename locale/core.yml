@@ -1,0 +1,585 @@
+core:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the placeholder Add Extension modal dialog.
+    add_extension:
+      developer_text: " ئەگەر سىز پىروگىراممىر بولسىڭىز <a>چۈشەندۈرۈشنى ئوقۇپ</a> ئۆزىڭىزنىڭ قىستۇرما ئەپنى ياسىسىڭىز بولىدۇ."
+      install_text: "شۇنداقلا سىز ئورگان بىكەتتىن قستۇرما ئۇچۇرىنى كۆرگەندىن كىيىن composer بىلەن قاچىلىسىڭىز بولىدۇ . "
+      temporary_text: "كىيىنچە بىز قىستۇرمىنى ئاسانلار قاچىلايدىغان قىلىمز . "
+      title: قىستۇرما قېتىش
+
+    # These translations are used in the Appearance page.
+    appearance:
+      colored_header_label: رەڭلىك بەت بېشى
+      colors_heading: رەڭلەر
+      colors_text: "ئىككى خىل رەڭ تاللاڭ ، بىرسى يورۇق كۆرسىتىشكە ، يەنە بىرسى تەگلىك قىلىشقا ئىشلىتىلدۇ ."
+      custom_footer_heading: خاس بەت ئاستى
+      custom_footer_text: => core.ref.custom_footer_text
+      custom_header_heading: خاس بەت بېشى
+      custom_header_text: => core.ref.custom_header_text
+      custom_styles_heading: خاس پاسون
+      custom_styles_text: css/less قېتىش ئارقىلىق تور بېكىتىڭىزنى خاسلاشتۇرسىڭىز بولىدۇ.
+      dark_mode_label: قاراڭغۇ ھالەت
+      edit_css_button: پاسۇننى تەڭشەش
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
+      enter_hex_message: 16لىك سىستىمىدىكى رەڭنى يېزىڭ
+      favicon_heading: ئايكون
+      favicon_text: توربىەتنىڭ بېشىدا كۆرىنىدىغان كىچىك رەسىمنى يۈكلەڭ
+      logo_heading: لوگو
+      logo_text: توربەتنىڭ لوگوسىنى يۈكلەڭ
+      submit_button: => core.ref.save_changes
+
+    # These translations are used in the Basics page.
+    basics:
+      all_discussions_label: => core.ref.all_discussions
+      default_language_heading: سۈكۈتتىكى تىل
+      forum_description_heading: مۇنبەر تونۇشتۇرلىشى
+      forum_description_text: مۇنبەرنى بىر-ئىككى جۈمىلە بىلەن چۈشەندۈرۈڭ . ئىزدەش ماتورى مۇشۇ ئارقىلىق توربەتنى خاتىرلەيدۇ
+      forum_title_heading: مۇنبەر تېمىسى
+      home_page_heading: باشبەت
+      home_page_text: ئابۇنىت ئاچقاندا ئېچىلىدىغان بەتنى تاللاڭ
+      saved_message: ئۆزگەرتىشلەر ساقلاندى
+      show_language_selector_label: تىل تاللاش ئىستونىنى كۆرسىتىش
+      submit_button: => core.ref.save_changes
+      welcome_banner_heading: قارىشى ئېلىش لوزۇنكىسى
+      welcome_banner_text: مۇنبەر ئېچىلغاندا
+
+    # These translations are used in the Dashboard page.
+    dashboard:
+      clear_cache_button: غەملەك تازلاش
+      tools_button: قۇرال
+
+    # These translations are used in the Edit Custom CSS modal dialog.
+    edit_css:
+      customize_text: "css/less يېزىپ مۇنبەرنىڭ پاسۇنىنى ئۆزگەرتسىڭىز بولىدۇ . "
+      submit_button: => core.ref.save_changes
+      title: پاسۇننى ئۆزگەرتىش
+
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      customize_text: => core.ref.custom_footer_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_footer_title
+
+    # These translations are used in the Edit Group modal dialog.
+    edit_group:
+      color_label: => core.ref.color
+      delete_button: گۇرۇپنى ئۆچۈرۈش
+      delete_confirmation: "بۇ گۇرۇپنى راستىنلا ئۆچۈرەمسىز ؟ ئەزالار ئۆچمەيدۇ ."
+      icon_label: ئايكون
+      icon_text: "FontAwesome نىڭ كودىنى كىرگۈزۈڭ"
+      name_label: ئىسىم
+      plural_placeholder: گۇرۇپ ئاتىلىشى
+      singular_placeholder: گۇرۇپ ئاتىلىشى
+      submit_button: => core.ref.save_changes
+      title: گۇرۇپ قۇرۇش
+
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: => core.ref.custom_header_text
+      submit_button: => core.ref.save_changes
+      title: => core.ref.custom_header_title
+
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: SMTP ئاكونتى
+      addresses_heading: ئادرېس
+      driver_label: قوزغاتقۇچ
+      encryption_label: شىفىرلىنىشى
+      from_label: يوللىغۇچى
+      heading: => core.ref.email
+      host_label: مۇلازىمتىر
+      password_label: => core.ref.password
+      port_label: ئېغىر
+      server_heading: SMTP مۇلازىمتىر
+      submit_button: => core.ref.save_changes
+      text: SMTP تەڭشىكىنى بېكىتىڭ ، ئاندىن سىستمىنىڭ ئىلخىت سىستىمىسى نۇرمال ئىشلەيدۇ.
+      username_label: => core.ref.username
+
+    # These translations are used in the Extensions page.
+    extensions:
+      add_button: قىستۇرما قېتىش
+      settings_button: => core.ref.settings
+      uninstall_button: تاقاش
+
+    # These translations are used in the session dropdown menu.
+    header:
+      log_out_button: => core.ref.log_out
+
+    # These translations are used in the modal dialog displayed when loading extensions.
+    loading:
+      title: سەل ساقلاڭ
+
+    # These translations are used in the navigation bar.
+    nav:
+      appearance_button: كۆرۈنىشى
+      appearance_text: "رەڭ ، لوگولارنى خاسلاشتۇرۇڭ"
+      basics_button: ئاساسلىق
+      basics_text: "مۇنبەرنىڭ تېمىسىنى ، تىلىنى شۇنداقلا چۈشەندۈرلىشىنى بېكىتىڭ"
+      dashboard_button: مەيدان
+      dashboard_text: مۇنبەرنىڭ ھازىرقى ئەھۋالى
+      email_button: => core.ref.email
+      email_text: "ئىلخەت تەڭشىكىنى بېكىتىش"
+      extensions_button: قىستۇرمىلار
+      extensions_text: مۇنبەرگە باشقىلا ئىقتىدارلانى قېتىش
+      permissions_button: ھۇقۇق
+      permissions_text: كىمنىڭ نېمە ئىش قىلالايدىغانلىقىنى بېكىتىڭ
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_post_editing_label: يازما تەھرىرلىسە بولىدۇ
+      allow_renaming_label: تېما ئۆزگەرتسە بولىدۇ
+      create_heading: قۇرۇش
+      delete_discussions_forever_label: يازمىنى مەڭگۈ ئۆچۈرۈش
+      delete_discussions_label: يازما ئ‍ۆچۈرۈش
+      delete_posts_forever_label: ئىنكاسنى مەڭگۈ ئۆچۈرۈش
+      delete_posts_label: ئىنكاسنى ئۆچۈرۈش
+      edit_posts_label: ئىنكاس تەھرىرلەش
+      global_heading: ھەممە
+      moderate_heading: ئوتتۇرا دەرىجىلىەك
+      new_group_button: يېڭى گۇرۇپ
+      participate_heading: مەزمۇنغا دائىر
+      read_heading: كۆرۈشكە دائىر
+      rename_discussions_label: تېما ئۆزگەرتىش
+      reply_to_discussions_label: ئىنكاس يوللاش
+      sign_up_label: تىزىملىتىش
+      start_discussions_label: ياما يوللاش
+      view_discussions_label: يازما كۆرۈش
+      view_last_seen_at_label: ئابۇنىتنىڭ ئاخىرقى تورغا چىققان ۋاقتىنى كۆرۈش
+      view_post_ips_label: يازما يوللانغا IP ئادىرىسىنى كۆرۈش
+      view_user_list_label: ئابۇنىت تىزىملىكىنى كۆرۈش
+
+    # These translations are used in the dropdown menus on the Permissions page.
+    permissions_controls:
+      allow_indefinitely_button: چەكسىز
+      allow_some_minutes_button: "{count} مىنۇتقىچە|{count} مىنۇتقىچە"
+      allow_ten_minutes_button: ئون مىنۇتقىچە
+      allow_until_reply_button: كىيىنكى ئىنكاسقىچە
+      everyone_button: ھەممە ئادەم
+      members_button: => core.group.members
+      signup_closed_button: تاقالغان
+      signup_open_button: ئوچۇق
+
+    # These translations are used in the Settings modal dialog.
+    settings:
+      submit_button: => core.ref.save_changes
+
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: => core.ref.remove
+      upload_button: Choose an Image...
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used in the Change Email modal dialog.
+    change_email:
+      confirm_password_placeholder: => core.ref.confirm_password
+      confirmation_message: => core.ref.confirmation_email_sent
+      dismiss_button: => core.ref.okay
+      incorrect_password_message: كىرگۈزگەن پارول خاتا بۇلۇپ قالدى
+      submit_button: => core.ref.save_changes
+      title: => core.ref.change_email
+
+    # These translations are used in the Change Password modal dialog.
+    change_password:
+      send_button: پارول ئۆزگەرتىش ئۇچۇرىنى يوللاش
+      text: ئاستىدىكى كۇنۇپكىنى بېسىڭ ھەمدە ئىلخەتتىكى ئۇلىنىشنى چىكىڭ
+      title: => core.ref.change_password
+
+    # These translations are used by the composer controls.
+    composer:
+      close_tooltip: تاقاش
+      exit_full_screen_tooltip: پۈتۈن ئىكىراندىن چىكىنىش
+      full_screen_tooltip: پۈتۈن ئىكران
+      minimize_tooltip: كىچىكلىتىش
+      preview_tooltip: كۆرۈش
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      body_placeholder: مەزمۇن
+      discard_confirmation: "مەزمۇننى يوللىمىدىڭىز ، بۇ مەزمۇندىن ۋاز كىچەمسىز"
+      submit_button: يوللاش
+      title: => core.ref.start_a_discussion
+      title_placeholder: تېما
+
+    # These translations are used by the composer when editing a post.
+    composer_edit:
+      discard_confirmation: "ئ‍ۆزگەرتىشنى ساقلىمىدىڭىز ، ۋاز كىچەمسىز ؟"
+      post_link: "يازما بار #{number}  دا {discussion}"
+      submit_button: => core.ref.save_changes
+
+    # These translations are used by the composer when replying to a discussion.
+    composer_reply:
+      body_placeholder: => core.ref.write_a_reply
+      discard_confirmation: "سىزنىڭ ئىنكاسىڭىز يوللانمىدى ، ۋاز كېچەمسىز ؟"
+      posted_message: ئىنكاس يوللاندى .
+      submit_button: يوللاش
+      view_button: كۆرۈش
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      cannot_reply_button: ئىنكاس يوللىيالمايسىز
+      cannot_reply_text: سىزنىڭ بۇ تېمىغا ئىنكاس يېزىش ھوقۇقىڭىز يوق
+      delete_button: => core.ref.delete
+      delete_confirmation: "بۇ يازمىنى راستىنلا ئۆچۈرەمسىز؟"
+      delete_forever_button: => core.ref.delete_forever
+      log_in_to_reply_button: كىرسىڭىز يوللىيالايسىز
+      rename_button: => core.ref.rename
+      reply_button: => core.ref.reply
+      restore_button: => core.ref.restore
+
+    # These translations are used in the discussion list.
+    discussion_list:
+      empty_text: بۇ يەردە بىرمۇ يازما يوقتەك قىلامدۇ نېمە ...
+      load_more_button: => core.ref.load_more
+      mark_as_read_tooltip: ئوقۇدۇم دەپ بەلگە قويۇش
+      replied_text: "{username} {ago} ئىنكاس يوللىدى"
+      started_text: "{username} {ago} يوللىدى"
+
+    # These translations are used in the Edit User modal dialog (admin function).
+    edit_user:
+      activate_button: ئىشلەتكۈچىنى قوزغىتىش
+      email_heading: => core.ref.email
+      email_label: => core.ref.email
+      groups_heading: گۇرۇپ
+      password_heading: => core.ref.password
+      password_label: => core.ref.password
+      set_password_label: يېڭى پارولنى بېكىتىش
+      submit_button: => core.ref.save_changes
+      title: ئىشلەتكۈچىنى تەھرىرلەش
+      username_heading: => core.ref.username
+      username_label: => core.ref.username
+
+    # These translations are used in the Forgot Password modal dialog.
+    forgot_password:
+      dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
+      email_sent_message: بىز سىزگە پارول ئۆزگەرتىش ئۇچۇرىنى يوللاپ بولدۇق. ئەگەر تاپشۇرۇپ ئالمىغان بولسىڭىز ئەخلەت ساندۇقىغا قاراپ بېقىڭ .
+      not_found_message: بۇ ئىلخەتنى ھېچكىم تىزىملاتماپتۇ جۇمۇ
+      submit_button: پارول ئۆزگەرتىش
+      text: ئىلخەتنى كىرگۈزۈڭ ، بىز سىزگە پارولنى قايتا بېكىتىش ئادىرىسىنى يوللاپ بىرىمىز
+      title: پارولنى ئۇنتۇپ قالدىم
+
+    # These translations are used in the header and session dropdown menu.
+    header:
+      admin_button: باشقۇرغۇچى
+      back_to_index_tooltip: يازما تىزىملىكىگە قايتىش
+      log_in_link: => core.ref.log_in
+      log_out_button: => core.ref.log_out
+      profile_button: ماتىريال
+      search_placeholder: ئىزدەش
+      settings_button: => core.ref.settings
+      sign_up_link: => core.ref.sign_up
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      all_discussions_link: => core.ref.all_discussions
+      cannot_start_discussion_button: ئىنكاس يازالمايسىز ؟
+      mark_all_as_read_confirmation: "ھەممە يازمىغا ئوقۇدۇم دەپ بەلگە قۇيامسىز ؟"
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      refresh_tooltip: يېڭىلاش
+      start_discussion_button: => core.ref.start_a_discussion
+
+    # These translations are used by the sorting control above the discussion list.
+    index_sort:
+      latest_button: يېڭىلانغان
+      newest_button: يېڭى
+      oldest_button: كونا
+      relevance_button: مۇناسىۋەتلىك
+      top_button: ئاۋات
+
+    # These translations are used in the Log In modal dialog.
+    log_in:
+      forgot_password_link: "پارولنى ئۇنتۇپ قالدىڭىز ؟"
+      invalid_login_message: كىرگۈزگەن ئۇچۇرىڭىز خاتا بۇلۇپ قالدى
+      password_placeholder: => core.ref.password
+      remember_me_label: كىيىن پارولسىز كىرسۇن
+      sign_up_text: "ئاكونتىڭىز يوق بولسا ئاۋۋال <a>تىزىملىتىڭ</a>"
+      submit_button: => core.ref.log_in
+      title: => core.ref.log_in
+      username_or_email_placeholder: ئەزا نامى ياكى ئىلخەت
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      discussion_renamed_text: "{username} تېمىسىنى ئۆزگەرتكەن"
+      empty_text: ئۇقتۇرۇش يوق
+      mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      title: => core.ref.notifications
+      tooltip: => core.ref.notifications
+
+    # These translations are used by tooltips displayed for individual posts.
+    post:
+      edited_text: قايتا تەھرىرلەنگەن
+      edited_tooltip: "{username} {ago} تەھرىرلىگەن"
+      number_tooltip: "ئىنكاس #{number}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      delete_button: => core.ref.delete
+      delete_forever_button: => core.ref.delete_forever
+      edit_button: => core.ref.edit
+      restore_button: => core.ref.restore
+
+    # These translations are used in the scrubber to the right of the post stream.
+    post_scrubber:
+      now_link: ھازىر
+      original_post_link: ئەسلى يازما
+      unread_text: "{count} سى ئوقۇلمىغان"
+      viewing_text: "{index}-قەۋەت / جەمئىي {count} قەۋەت|{index}-قەۋەت / جەمئىي {count} قەۋەت "
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      discussion_renamed_old_tooltip: 'ئەسلى تېمىسى : "{old}"'
+      discussion_renamed_text: "{username} تېمىسىنى {new} غا ئۆزگەتتى."
+      load_more_button: => core.ref.load_more
+      reply_placeholder: => core.ref.write_a_reply
+      time_lapsed_text: "{period} دىن كىيىن"
+
+    # These translations are used by the rename discussion modal.
+    rename_discussion:
+      submit_button: => core.ref.rename
+      title: تېمىسىنى ئالماشتۇرۇش
+
+    # These translations are used by the search results dropdown list.
+    search:
+      all_discussions_button: '"{query}" غا مۇناسىۋەتلىك ھەممە يازمىنى ئىزدەش'
+      discussions_heading: => core.ref.discussions
+      users_heading: => core.ref.users
+
+    # These translations are used in the Settings page.
+    settings:
+      account_heading: ئاكونىت
+      change_email_button: => core.ref.change_email
+      change_password_button: => core.ref.change_password
+      notifications_heading: => core.ref.notifications
+      notify_by_email_heading: => core.ref.email
+      notify_by_web_heading: توربىكەت
+      notify_discussion_renamed_label: بىرسى يازمامنىڭ تېمىسىنى ئ‍ۆزگەرتتى
+      privacy_disclose_online_label: مېنىڭ توردا ئىكەنلىكىمنى باشقىلار بىلسە بولىدۇ
+      privacy_heading: شەخسىيەت
+      title: => core.ref.settings
+
+    # These translations are used in the Sign Up modal dialog.
+    sign_up:
+      dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
+      log_in_text: "ئاككونتىڭىز بولسا <a>كىرىڭ</a>"
+      password_placeholder: => core.ref.password
+      submit_button: => core.ref.sign_up
+      title: => core.ref.sign_up
+      username_placeholder: "ئىسىم ( ئۇيغۇرچە قوللايدۇ )"
+      welcome_text: "{username} خوش كەلدىڭىز !"
+
+    # These translations are used in the user profile page and profile popup.
+    user:
+      avatar_remove_button: => core.ref.remove
+      avatar_upload_button: يۈكلەش
+      avatar_upload_tooltip: يېڭى باش سۈرئەت يوللاش
+      discussions_link: => core.ref.discussions
+      in_discussion_text: "{discussion} دا"
+      joined_date_text: "{ago} كىرگەن"
+      online_text: توردا
+      posts_empty_text: بىرمۇ يازما يوقتەك قىلامدۇ نېمە!!!
+      posts_link: => core.ref.posts
+      posts_load_more_button: => core.ref.load_more
+      settings_link: => core.ref.settings
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      button: تەڭشەك
+      delete_button: => core.ref.delete
+      delete_confirmation: "بۇ ئابۇنىتنى راستىنلا ئۆچۈرەمسىز ؟ ھەممە يازمىسى ئۆچۈپ كېتىدۇ جۇمۇ !"
+      edit_button: => core.ref.edit
+
+    # These translations are used in the alert that is shown when a new user has not confirmed their email address.
+    user_email_confirmation:
+      alert_message: => core.ref.confirmation_email_sent
+      resend_button: دەلىللەش ئۇچۇرىنى قايتا يوللاش
+      sent_message: يوللاش
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      hidden_tooltip: يۇشۇرۇش
+
+    # These translations are displayed as error messages.
+    error:
+      generic_message: "ئاپلا ، ئازراق ئېگىز پەسلىك بوپ قالدى . بەتنى قايتا ئېچىپ سىناپ باقامسىز "
+      not_found_message: The requested resource was not found.
+      permission_denied_message: ھوقۇقىڭىز يەتمىدى ، بەتنى قايتا ئېچىپ سىناپ بېقىڭ
+      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+
+    # These translations are used as suffixes when abbreviating numbers.
+    number_suffix:
+      kilo_text: K
+      mega_text: M
+
+    # These translations are used to punctuate a series of items.
+    series:
+      glue_text: "، "
+      three_text: "{first}, {second}, ۋە {third}"
+      two_text: "{first} ۋە {second}"
+
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[ئۆچۈرۈلدى]"
+
+  # Translations in this namespace are used in views other than Flarum's normal JS client.
+  views:
+
+    # Translations in this namespace are displayed by the basic HTML content loader.
+    content:
+      javascript_disabled_message: بۇ توربەت ھازىرقى زامان تور كۆرگۈچلىرىدە نۇرمال ئىشلەيدۇ.
+      load_error_message: سىستىما توغرا قاچىلانمىدىمۇ قانداق، ئەگەر بۇ ئەسكەرتىش چىقسا سىستمىنى قايتا قاچىلاڭ
+      loading_text: سەل ساقلاڭ ...
+
+    # Translations in this namespace are displayed in the basic HTML discussion view.
+    discussion:
+      next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed when Flarum encounters an error.
+    error:
+      403_message: سىزنىڭ بۇ بەتنى ئېچىش ھۇقۇقىڭىز يوق
+      404_message: سىز ئاچقان بەت يوقكەن
+      404_return_link: "{forum} غا قايتىش"
+      500_message: ئازراق خاتالىق چىقىپ قالدى
+      503_message: "{forum} ياسىلىۋاتىدۇ . "
+
+    # Translations in this namespace are displayed by the basic HTML discussion index.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
+
+    # Translations in this namespace are displayed by the Log Out confirmation interface.
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: "سىز {forum} دىن راستىنلا چىكىنەمسىز ؟"
+      title: => core.ref.log_out
+
+    # Translations in this namespace are displayed by the Reset Password interface.
+    reset_password:
+      confirm_password_label: پارولنى بېكىتىش
+      new_password_label: پارول
+      submit_button: => core.ref.save_changes
+      title: => core.ref.reset_your_password
+
+  # Translations in this namespace are used in messages output by the API.
+  api:
+    invalid_username_message: "ئابۇنىت ئىسمى خاتا بۇلۇپ قالدى . ئۇيغۇرچە يازسىڭىزمۇ بولىدۇ جۇمۇ !"
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when users register new accounts.
+    activate_account:
+      subject: 激活你的账号
+      body: |
+        嘿~
+
+        {username} 想通过这个邮箱在 elgek.net 注册账号。（但愿是你！）
+
+        如果是你注册的，只需打开下面的链接即可完成账号激活。
+        {url}
+
+        如果你感到莫名其妙，请忽略这封邮件。
+
+    # These translations are used in emails sent when users change their email address.
+    confirm_email:
+      subject: 确认邮箱地址
+      body: |
+        Hey {username} !
+
+        有人想更换你在 elgek.net 的邮箱地址。（但愿是你！）
+
+        如果确定是你的操作，只需打开下面的链接即可更换新的邮箱。
+
+        {url}
+
+        如果不是你，请立即检查账号安全并修改密码。
+
+    # These translations are used in emails sent when users ask to reset their passwords.
+    reset_password:
+      subject: => core.ref.reset_your_password
+      body: |
+        Hey {username} !
+
+        有人想要重置你在 elgek.net 的登入密码。（但愿是你！）
+
+        如果确定是你的操作，只需打开下面的链接即可完成重置密码。
+
+        {url}
+
+        如果不是你，请忽略掉它，我们不会受理这个操作。
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    all_discussions: ھەممە يازما
+    change_email: ئىلخەت ئۆزگەرتىش
+    change_password: پارول ئۆزگەرتىش
+    color: رەڭ                                 # Referenced by flarum-tags.yml
+    confirm_password: پارول مۇقۇملاش
+    confirmation_email_sent: "بىز {email} غا بىر پارچە ئىلخىت ئەۋەتتۇق . ئەگەر تاپشۇرۇپ ئالمىغان بولسىڭىز ئەخلەت ساندۇقىغا قاراپ بېقىڭ"
+    custom_footer_text: ھەربىر بەتنىڭ ئاستىدا كۆرىنىدىغان مەزمۇن
+    custom_footer_title: بەت ئاستىنى تەھرىرلەش
+    custom_header_text: "ھەربىر بەتنىڭ ئۈستىدە كۆرىنىدىغان مەزمۇن"
+    custom_header_title: بەت بېشىنى تەھرىرلەش
+    delete: ئۆچۈرۈش
+    delete_forever: مەڭگۈلۈك ئۆچۈرۈش
+    discussions: يازما                     # Referenced by flarum-statistics.yml
+    edit: تەھرىرلەش
+    email: ئىلخەت
+    load_more: تېخىمۇ كۆپ
+    log_in: كىرىش
+    log_out: چىكىنىش
+    mark_all_as_read: ھەممىگە ئۇقۇدۇم دەپ بەلگە قويۇش
+    next_page: كىيىنكى بەت
+    notifications: ئۇچۇرلار
+    okay: ھەئە                                  # Referenced by flarum-tags.yml
+    password: پارول
+    posts: ئىنكاس                                 # Referenced by flarum-statistics.yml
+    previous_page: ئالدىنقى بەت
+    remove: چىقرىۋېتىش
+    rename: تېما ئۆزگەرتىش
+    reply: قايتۇرۇش                                 # Referenced by flarum-mentions.yml
+    reset_your_password: پارولنى ئۆزگەرتىش
+    restore: ئەسلىگە قايتۇرۇش
+    save_changes: ساقلاش                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: تەڭشەك
+    sign_up: تىزىملىتىش
+    some_others: "{count} باشقا|{count} باشقىلار"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: يازما يوللاش
+    username: ئىسىم
+    users: ئابۇنىتلار                                 # Referenced by flarum-statistics.yml
+    write_a_reply: ئىنكاس يېزىش
+    you: سىز                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+
+  ##
+  # GROUP NAMES - These keys are translated at the back end.
+  ##
+
+  # Translations in this namespace are used to translate default group names.
+  group:
+    admin: باشقۇرغۇچى
+    admins: باشقۇرغۇچىلار
+    guest: مېھمان
+    guests: مېھمانلار
+    member: ئەزا
+    members: ئەزالار
+    mod: يۈرگۈزگۈچى
+    mods: يۈرگۈزگىچىلەر
